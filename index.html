@@ -1,52 +1,203 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
 
-	<link rel="stylesheet" href="./pages/index.css">
-</head>
-<body class="root root__main-page">
+    <link rel="stylesheet" href="./pages/index.css" />
+  </head>
+  <body class="root root__main-page">
+    <!-- HEADER START -->
+    <header class="header">
+      <div class="header__container">
+        <a href="/" class="header__logo">
+          <img src="./images/logo.svg" alt="Логотип «Россия»." class="logo" />
+        </a>
+        <ul class="header__languages-list">
+          <li class="header__languages-list-item">
+            <a
+              href="#"
+              class="header__languages-link header__languages-link_status_active"
+            >
+              RU
+            </a>
+          </li>
+          <li class="header__languages-list-item">
+            <a href="#" class="header__languages-link"> EN </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- HEADER END -->
 
-	<!-- HEADER START -->
-	<header class="header">
-		<div class="header__container">
-			<a href="/" class="header__logo">
-				<img src="./images/logo.svg" alt="Логотип «Россия»." class="logo">
-			</a>
-			<ul class="header__languages-list">
-				<li class="header__languages-list-item">
-					<a href="#" class="header__languages-link header__languages-link_status_active">
-						RU
-					</a>
-				</li>
-				<li class="header__languages-list-item">
-					<a href="#" class="header__languages-link">
-						EN
-					</a>
-				</li>
-			</ul>
-		</div>
-	</header>
-	<!-- HEADER END -->
+    <main class="main-content">
+      <section class="section hero">
+        <div class="container hero__container">
+          <h1 class="hero__title">Путешествия по&nbsp;России</h1>
+          <p class="hero__subtitle">
+            Настоящая страна не&nbsp;в&nbsp;выпусках новостей, а&nbsp;здесь.
+          </p>
+          <div class="hero__img-container">
+            <img
+              src="./images/goroda_dlya_puteshestvij.jpg"
+              alt="Карта России с маршрутом для путешествий по городам."
+              class="hero__img"
+            />
+            <p class="hero__img-description">ваша полка — верхняя</p>
+          </div>
+        </div>
+      </section>
 
-	<main class="main-content">
-		
-		<section class="hero">
-			<div class="hero__container">
-				<h1 class="hero__title"></h1>
-				<p class="hero__subtitle"></p>
-				<div class="hero__img-container">
-					<img src="" alt="" class="hero__img">
-					<p class="hero__img-description"></p>
-				</div>
-			</div>
-		</section>
+      <section class="section intro">
+        <div class="container intro__container">
+          <h2 class="intro__title">Чего мы там не&nbsp;видели?</h2>
+          <p class="intro__text">
+            По&nbsp;опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать,
+            но&nbsp;только&nbsp;36% планируют провести отпуск в&nbsp;родной
+            стране. Мол, чего мы&nbsp;тут, дома, не&nbsp;видели? На&nbsp;самом
+            деле, Россия&nbsp;&mdash; это целая вселенная с&nbsp;ласковым морем
+            юга, густыми лесами Саян и&nbsp;суровыми льдами плато Путорана.
+            А&nbsp;ещё увидеть все эти красоты можно без миллионов
+            на&nbsp;счету, загранпаспорта и&nbsp;многочасовых перелетов. Как,
+            например, Вера Башмакова&nbsp;&mdash; смелая молодая мама, которая
+            взяла в&nbsp;охапку троих детей, усадила их&nbsp;в&nbsp;свою
+            &laquo;Ладу&raquo; и&nbsp;проехала 20&nbsp;тысяч километров
+            по&nbsp;родной стране. Мы&nbsp;выбрали и&nbsp;описали некоторые
+            интересные места, достойные вашего отпуска.
+          </p>
+          <ul class="intro__list">
+            <li class="intro__list-item">
+              Часовых поясов <span class="intro__span">11</span>
+            </li>
+            <li class="intro__list-item">
+              Объектов природного наследия ЮНЕСКО
+              <span class="intro__span">12</span>
+            </li>
+            <li class="intro__list-item">
+              Объектов культурного наследия ЮНЕСКО
+              <span class="intro__span">16</span>
+            </li>
+            <li class="intro__list-item">
+              Природных заповедников <span class="intro__span">105</span>
+            </li>
+            <li class="intro__list-item">
+              Аэропортов <span class="intro__span">241</span>
+            </li>
+          </ul>
+        </div>
+      </section>
 
-	</main>
+      <section class="section photo-gallery">
+        <ul class="container photo-gallery__container">
+          <li class="photo-gallery__item">
+            <img
+              src="./images/photo-grid__item-01.jpg"
+              alt="Фотография с видом из поезда."
+              class="photo-gallery__photo"
+            />
+          </li>
+          <li class="photo-gallery__item">
+            <img
+              src="./images/photo-grid__item-02.jpg"
+              alt="Солнечные горы с высоты птичьего полёта."
+              class="photo-gallery__photo"
+            />
+          </li>
+          <li class="photo-gallery__item">
+            <img
+              src="./images/photo-grid__item-03.jpg"
+              alt="Собака на битке сена на восходе."
+              class="photo-gallery__photo"
+            />
+          </li>
+          <li class="photo-gallery__item">
+            <img
+              src="./images/photo-grid__item-04.jpg"
+              alt="Лес. Вид сверху на верхушки елей в туман."
+              class="photo-gallery__photo"
+            />
+          </li>
+          <li class="photo-gallery__item">
+            <img
+              src="./images/photo-grid__item-05.jpg"
+              alt="Колесо автомобиля на треснувшем толстом слое льда."
+              class="photo-gallery__photo"
+            />
+          </li>
+          <li class="photo-gallery__item">
+            <img
+              src="./images/photo-grid__item-06.jpg"
+              alt="Солнечный пляж с видом на горы."
+              class="photo-gallery__photo"
+            />
+          </li>
+          <li class="photo-gallery__item">
+            <img
+              src="./images/photo-grid__item-07.jpg"
+              alt="Скалистые горы со снежными вершинами."
+              class="photo-gallery__photo"
+            />
+          </li>
+          <li class="photo-gallery__item">
+            <img
+              src="./images/photo-grid__item-08.jpg"
+              alt="Знак пешеходного перехода на фоне буев."
+              class="photo-gallery__photo"
+            />
+          </li>
+          <li class="photo-gallery__item">
+            <img
+              src="./images/photo-grid__item-09.jpg"
+              alt="Вид с квадракоптера на горный каньон в облачную погоду."
+              class="photo-gallery__photo"
+            />
+          </li>
+          <li class="photo-gallery__item">
+            <img
+              src="./images/photo-grid__item-10.jpg"
+              alt="Вид на вершину горы и лесную долину перед ней."
+              class="photo-gallery__photo"
+            />
+          </li>
+          <li class="photo-gallery__item">
+            <img
+              src="./images/photo-grid__item-11.jpg"
+              alt="Скалистый солнечный берег у моря."
+              class="photo-gallery__photo"
+            />
+          </li>
+          <li class="photo-gallery__item">
+            <img
+              src="./images/photo-grid__item-12.jpg"
+              alt="Облака над вершинами скал."
+              class="photo-gallery__photo"
+            />
+          </li>
+        </ul>
+      </section>
 
-	
-</body>
+			<section class="section places">
+				<ul class="container places__container">
+					<li class="places__place">
+						<div class="places__cell places__cell_type_title">
+							<h2 class="places__title">Куршская коса</h2>
+						</div>
+						<div class="places__cell places__cell_type_url">
+							<p class="places__url-heading">URL</p>
+							<a href="http://park-kosa.ru" class="places__link" target="blank">park-kosa.ru</a>
+						</div>
+						<div class="places__cell places__cell_type_image-cell">
+							<img src="./images/kurshskaya-kosa.jpg" alt="Куршская коса." class="places__img">
+						</div>
+						<div class="places__cell places__cell_type_content-cell">
+							<p class="places__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная природная зона на краю российского анклава.</p>
+							<p class="places__paragraph">На этом Калининградская область не заканчивается. Для путешественника и исследователя там же по соседству — самая западная точка России, Балтийская коса, — и немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие природы и запах стального, прохладного моря.</p>	
+						</div>
+					</li>
+				</ul>
+			</section>
+    </main>
+  </body>
 </html>
