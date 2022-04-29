@@ -1,0 +1,9 @@
+.hero__title {
+	margin: 0;
+	width: 784px;
+	font-weight: 900;
+	font-size: 96px;
+	line-height: 100px;
+	color: #FFFFFF;
+	text-align: center;
+}

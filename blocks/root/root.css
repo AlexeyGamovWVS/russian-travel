@@ -1,0 +1,8 @@
+.root {
+	box-sizing: border-box;
+	font-family: 'Inter', Arial, Helvetica, sans-serif;
+	font-style: normal;
+	min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+}

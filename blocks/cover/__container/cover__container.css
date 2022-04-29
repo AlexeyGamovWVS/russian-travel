@@ -1,0 +1,10 @@
+.cover__container {
+	min-height: 740px;
+	height: calc(740/1280*100vw);
+	text-decoration: none;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
