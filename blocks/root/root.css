@@ -2,7 +2,9 @@
 	box-sizing: border-box;
 	font-family: 'Inter', Arial, Helvetica, sans-serif;
 	font-style: normal;
+	min-width: 320px;
 	min-height: 100vh;
+	background-color: #2A2C2F;
   scroll-behavior: smooth;
 	/* text-rendering: optimizeSpeed; */
 	text-rendering: optimizeLegibility;
@@ -11,5 +13,4 @@
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
-	min-width: 320px;
 }
