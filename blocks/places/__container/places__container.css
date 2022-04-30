@@ -4,3 +4,18 @@
 	padding: 0;
 	list-style: none;
 }
+
+@media screen and (max-width: 1279px) {
+	.places__container {
+		margin: 0 auto;
+		min-width: unset;
+		max-width: 984px;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.places__container {
+		margin: 0;
+		max-width: unset;	
+	}
+}
