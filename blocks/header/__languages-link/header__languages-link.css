@@ -6,3 +6,10 @@
 	color: #FFFFFF;
 	text-decoration: none;
 }
+
+@media screen and (max-width: 767px) {
+	.header__languages-link {
+		font-size: 18px;
+		line-height: 20px;
+	}
+}

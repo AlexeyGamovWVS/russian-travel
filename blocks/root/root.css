@@ -4,5 +4,12 @@
 	font-style: normal;
 	min-height: 100vh;
   scroll-behavior: smooth;
-  text-rendering: optimizeSpeed;
+	/* text-rendering: optimizeSpeed; */
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	min-width: 320px;
 }

@@ -1,3 +1,21 @@
 .hero {
 	padding: 28px 0 46px;
 }
+
+@media screen and (max-width: 1279px) {
+	.hero {
+		padding-top: 24px;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.hero {
+		padding-bottom: 44px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.hero {
+		padding-bottom: 32px;
+	}
+}

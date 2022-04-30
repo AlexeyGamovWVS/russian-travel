@@ -2,3 +2,9 @@
 	background-color: #2A2C2F;
 	padding: 0 48px;
 }
+
+@media screen and (max-width: 1023px) {
+	.root__main-page {
+		padding: 0;
+	}	
+}
