@@ -7,7 +7,7 @@
     <title>Путешествия по России</title>
     <meta name="Author" content="Alexey Gamov" />
     <meta name="Description" content="Путешествие по России" />
-    <link rel="icon" type="image/x-icon" href="./images/favicon.png" />
+    <link rel="icon" type="image/x-icon" href="./images/favicon.svg" />
     <link rel="stylesheet" href="./pages/index.css" />
   </head>
   <body class="root">
@@ -41,14 +41,14 @@
           <p class="hero__subtitle">
             Настоящая страна не&nbsp;в&nbsp;выпусках новостей, а&nbsp;здесь.
           </p>
-          <div class="hero__img-container">
+          <figure class="hero__img-container">
             <img
               src="./images/goroda_dlya_puteshestvij.jpg"
               alt="Карта России с маршрутом для путешествий по городам."
               class="hero__img"
             />
-            <p class="hero__img-description">ваша полка — верхняя</p>
-          </div>
+            <figcaption class="hero__img-description">ваша полка — верхняя</figcaption>
+          </figure>
         </div>
       </section>
 
@@ -181,8 +181,7 @@
       </section>
 
       <section class="places">
-        <ul class="places__container">
-          <li class="places__item">
+        <div class="places__container">
             <article class="places__place">
               <div class="places__cell places__cell_type_title">
                 <h2 class="places__title">Куршская коса</h2>
@@ -222,9 +221,6 @@
                 </p>
               </div>
             </article>
-          </li>
-
-          <li class="places__item">
             <article class="places__place">
               <div class="places__cell places__cell_type_title">
                 <h2 class="places__title">Кольский</h2>
@@ -264,8 +260,6 @@
                 </p>
               </div>
             </article>
-          </li>
-          <li class="places__item">
             <article class="places__place">
               <div class="places__cell places__cell_type_title">
                 <h2 class="places__title">Алтай</h2>
@@ -305,8 +299,6 @@
                 </p>
               </div>
             </article>
-          </li>
-          <li class="places__item">
             <article class="places__place">
               <div class="places__cell places__cell_type_title">
                 <h2 class="places__title">Зимний Байкал</h2>
@@ -344,8 +336,6 @@
                 </p>
               </div>
             </article>
-          </li>
-          <li class="places__item">
             <article class="places__place">
               <div class="places__cell places__cell_type_title">
                 <h2 class="places__title">Карелия</h2>
@@ -383,8 +373,7 @@
                 </p>
               </div>
             </article>
-          </li>
-        </ul>
+        </div>
       </section>
 
       <section class="cover">

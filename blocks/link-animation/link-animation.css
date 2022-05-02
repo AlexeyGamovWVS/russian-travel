@@ -1,16 +1,10 @@
-@keyframes linkhover {
-	from {
-		opacity: 1;
-	}
-	
-	to {
-		opacity: .8;
-	}
+.link-animation {
+	transition: opacity .3s ease;
+	-moz-transition: opacity .3s ease;
+	-webkit-transition: opacity .3s ease;
+	-o-transition: opacity .3s ease;
 }
 
 .link-animation:hover {
-		-webkit-animation: linkhover .3s forwards ease;
-		-moz-animation: linkhover .3s forwards ease;
-		-o-animation: linkhover .3s forwards ease;
-		animation: linkhover .3s forwards ease;
+	opacity: .8;
  }
