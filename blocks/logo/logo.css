@@ -1,3 +1,4 @@
 .logo {
 	object-fit: contain;
+	object-position: left bottom;
 }
