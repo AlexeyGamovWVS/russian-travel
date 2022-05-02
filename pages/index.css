@@ -52,6 +52,7 @@
 @import url(../blocks/places/__url-heading/places__url-heading.css);
 @import url(../blocks/places/__link/places__link.css);
 @import url(../blocks/places/__img/places__img.css);
+@import url(../blocks/places/__cell/_type/places__cell_type_content-cell.css);
 @import url(../blocks/places/__paragraph/places__paragraph.css);
 
 /* cover */
