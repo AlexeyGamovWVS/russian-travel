@@ -1,6 +1,8 @@
 .cover__container {
 	min-height: 740px;
-	max-height: calc(740/1280*100vw);
+	max-width: 1184px;
+	margin: 0 auto;
+	/* max-height: calc(740/1280*100vw); */
 	text-decoration: none;
 	position: relative;
 	display: flex;
@@ -11,8 +13,9 @@
 
 @media screen and (max-width: 1279px) {
 	.cover__container {
-		max-height: unset;
+		/* max-height: unset; */
 		min-height: 640px;
+		max-width: unset;
 	}
 }
 
